@@ -1,0 +1,35 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #af1e2d), color-stop(50%, #ffce00));
+  background: linear-gradient(to top left, #af1e2d 50%, #ffce00 50%);
+  font-family: "Exo 2", "Helvetica", sans-serif;
+}
+
+body h1 {
+  margin: 0;
+  font-size: 72px;
+}
+
+body h1.bottom {
+  color: #f3f3f3;
+  text-align: right;
+}
+
+body canvas {
+  background: #171717;
+  border: 3px solid #f3f3f3;
+  -webkit-box-shadow: 4px 4px 12px 4px rgba(23, 23, 23, 0.25);
+          box-shadow: 4px 4px 12px 4px rgba(23, 23, 23, 0.25);
+}
+/*# sourceMappingURL=main.css.map */
